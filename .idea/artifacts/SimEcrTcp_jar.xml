@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SimEcrTcp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SimEcrTcp_jar</output-path>
+    <root id="archive" name="SimEcrTcp.jar">
+      <element id="module-output" name="SimEcrTcp" />
+      <element id="module-test-output" name="SimEcrTcp" />
+    </root>
+  </artifact>
+</component>
