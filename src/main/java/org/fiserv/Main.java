@@ -44,8 +44,8 @@ public class Main {
             switch (choice) {
                 case 1:
                     System.out.print("TCP Client");
-                    TcpClient tcpClient = new TcpClient(fileName, ipAddress, tcpPort);
-                    tcpClient.process();
+                    TcpIpClient tcpIpClient = new TcpIpClient(fileName, ipAddress, tcpPort);
+                    tcpIpClient.process();
                     break;
                 case 2:
                     System.out.println("USB Client");
